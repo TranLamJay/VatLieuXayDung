@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+
 
     <!-- Title  -->
     <title>Cửa Hàng VLXD</title>
@@ -31,7 +31,7 @@
             <!-- Classy Menu -->
             <nav class="classy-navbar" id="essenceNav">
                 <!-- Logo -->
-                <a class="nav-brand" href="index.php"><img src="img/core-img/logo.png" alt=""></a>
+                <a class="nav-brand" href="../../index.html"><img src="img/core-img/logo.png" alt=""></a>
                 <!-- Navbar Toggler -->
                 <div class="classy-navbar-toggler">
                     <span class="navbarToggler"><span></span><span></span><span></span></span>
@@ -47,35 +47,35 @@
 
                     <div class="classynav">
                         <ul>
-                            <li><a href="#">Vật Liệu</a>
+                            <li><a href="views/san_pham/shop.php">Vật Liệu</a>
                                 <div class="megamenu">
                                     <ul class="single-mega cn-col-5">
                                         <li class="title">Gạch</li>
-                                        
+
                                     </ul>
                                     <ul class="single-mega cn-col-5">
                                         <li class="title">Xi-măng</li>
-                                     
+
                                     </ul>
                                     <ul class="single-mega cn-col-5">
                                         <li class="title">Gỗ </li>
-                                        
+
                                     </ul>
                                     <ul class="single-mega cn-col-5">
                                         <li class="title">Gạch men</li>
-                                        
+
                                     </ul>
                                     <ul class="single-mega cn-col-5">
                                         <li class="title">Ngói</li>
-                                        
+
                                     </ul>
                                     <ul class="single-mega cn-col-5">
                                         <li class="title">Gạch ống</li>
-                                        
+
                                     </ul>
                                     <ul class="single-mega cn-col-5">
                                         <li class="title">Đá</li>
-                                        
+
                                     </ul>
                                     <div class="single-mega cn-col-4">
                                         <img src="img/bg-img/bg-6.1.jpg" alt="">
@@ -84,18 +84,15 @@
                             </li>
                             <li><a href="#">Pages</a>
                                 <ul class="dropdown">
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="shop.html">Shop</a></li>
-                                    <li><a href="single-product-details.html">Product Details</a></li>
-                                    <li><a href="checkout.html">Checkout</a></li>
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="single-blog.html">Single Blog</a></li>
-                                    <li><a href="regular-page.html">Regular Page</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="views/san_pham/shop.php">Vật Liệu</a></li>
+                                    <li><a href="views/thanh_toan/checkout.php">Đơn Hàng</a></li>
+                                    <li><a href="views/lien_he/contact.php">Liên Hệ</a></li>
+
                                 </ul>
                             </li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="views/san_pham/shop.php">Vật Liệu</a></li>
+                            <li><a href="views/thanh_toan/checkout.php">Đơn Hàng</a></li>
+                            <li><a href="views/lien_he/contact.php">Liên Hệ</a></li>
                         </ul>
                     </div>
                     <!-- Nav End -->
@@ -118,8 +115,8 @@
                 <!-- User Login Info -->
                 <div class="user-login-info">
                     <a href="login.php"><img src="img/core-img/user.svg" alt=""></a>
-                 
-                    
+
+
                 </div>
                 <!-- Cart Area -->
                 <div class="cart-area">
@@ -129,111 +126,111 @@
 
         </div>
     </header>
-<!-- ##### Right Side Cart Area ##### -->
-<div class="cart-bg-overlay"></div>
+    <!-- ##### Right Side Cart Area ##### -->
+    <div class="cart-bg-overlay"></div>
 
-<div class="right-side-cart-area">
+    <div class="right-side-cart-area">
 
-    <!-- Cart Button -->
-    <div class="cart-button">
-        <a href="#" id="rightSideCart"><img src="img/core-img/bag.svg" alt=""> <span>3</span></a>
-    </div>
-
-    <div class="cart-content d-flex">
-
-        <!-- Cart List Area -->
-        <div class="cart-list">
-            <!-- Single Cart Item -->
-            <div class="single-cart-item">
-                <a href="#" class="product-image">
-                    <img src="img/product-img/product-1.1.1.jpg" class="cart-thumb" alt="">
-                    <!-- Cart Item Desc -->
-                    <div class="cart-item-desc">
-                        <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
-                        <span class="badge">Gạch</span>
-                        <h6>Gạch đỏ</h6>
-                        <p class="size">Số lượng : 50</p>
-                        <p class="color">Color: Red</p>
-                        <p class="price">$45.00</p>
-                    </div>
-                </a>
-            </div>
-
-            <!-- Single Cart Item -->
-            <div class="single-cart-item">
-                <a href="#" class="product-image">
-                    <img src="img/product-img/product-2.1.jpg" class="cart-thumb" alt="">
-                    <!-- Cart Item Desc -->
-                    <div class="cart-item-desc">
-                        <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
-                        <span class="badge">Gỗ </span>
-                        <h6>Gỗ sồi</h6>
-                        <p class="size">Số lượng : 100</p>
-                        <p class="color">Color: yellow</p>
-                        <p class="price">$45.00</p>
-                    </div>
-                </a>
-            </div>
-
-            <!-- Single Cart Item -->
-            <div class="single-cart-item">
-                <a href="#" class="product-image">
-                    <img src="img/product-img/product-3.1.jpg" class="cart-thumb" alt="">
-                    <!-- Cart Item Desc -->
-                    <div class="cart-item-desc">
-                        <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
-                        <span class="badge">Gỗ </span>
-                        <h6>Gỗ lim</h6>
-                        <p class="size">Số lượng : 100</p>
-                        <p class="color">Color: Red</p>
-                        <p class="price">$45.00</p>
-                    </div>
-                </a>
-            </div>
+        <!-- Cart Button -->
+        <div class="cart-button">
+            <a href="#" id="rightSideCart"><img src="img/core-img/bag.svg" alt=""> <span>3</span></a>
         </div>
 
-        <!-- Cart Summary -->
-        <div class="cart-amount-summary">
+        <div class="cart-content d-flex">
 
-            <h2>Summary</h2>
-            <ul class="summary-table">
-                <li><span>subtotal:</span> <span>$274.00</span></li>
-                <li><span>delivery:</span> <span>Free</span></li>
-                <li><span>discount:</span> <span>-15%</span></li>
-                <li><span>total:</span> <span>$232.00</span></li>
-            </ul>
-            <div class="checkout-btn mt-100">
-                <a href="checkout.html" class="btn essence-btn">check out</a>
+            <!-- Cart List Area -->
+            <div class="cart-list">
+                <!-- Single Cart Item -->
+                <div class="single-cart-item">
+                    <a href="#" class="product-image">
+                        <img src="img/product-img/product-1.1.1.jpg" class="cart-thumb" alt="">
+                        <!-- Cart Item Desc -->
+                        <div class="cart-item-desc">
+                            <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
+                            <span class="badge">Gạch</span>
+                            <h6>Gạch đỏ</h6>
+                            <p class="size">Số lượng : 50</p>
+                            <p class="color">Color: Red</p>
+                            <p class="price">$45.00</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Single Cart Item -->
+                <div class="single-cart-item">
+                    <a href="#" class="product-image">
+                        <img src="img/product-img/product-2.1.jpg" class="cart-thumb" alt="">
+                        <!-- Cart Item Desc -->
+                        <div class="cart-item-desc">
+                            <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
+                            <span class="badge">Gỗ </span>
+                            <h6>Gỗ sồi</h6>
+                            <p class="size">Số lượng : 100</p>
+                            <p class="color">Color: yellow</p>
+                            <p class="price">$45.00</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Single Cart Item -->
+                <div class="single-cart-item">
+                    <a href="#" class="product-image">
+                        <img src="img/product-img/product-3.1.jpg" class="cart-thumb" alt="">
+                        <!-- Cart Item Desc -->
+                        <div class="cart-item-desc">
+                            <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
+                            <span class="badge">Gỗ </span>
+                            <h6>Gỗ lim</h6>
+                            <p class="size">Số lượng : 100</p>
+                            <p class="color">Color: Red</p>
+                            <p class="price">$45.00</p>
+                        </div>
+                    </a>
+                </div>
             </div>
-        </div>
-    </div>
-</div>
-<!-- ##### Right Side Cart End ##### -->
 
-<!--  Right Side Cart End  -->
+            <!-- Cart Summary -->
+            <div class="cart-amount-summary">
 
-<!-- Welcome Area Start  -->
-<section class="welcome_area bg-img background-overlay" style="background-image: url(img/bg-img/bg-1.1.jpg);">
-    <div class="container h-100">
-        <div class="row h-100 align-items-center">
-            <div class="col-12">
-                <div class="hero-content">
-                    <h6>asoss</h6>
-                    <h2>New Collection</h2>
-                    <a href="#" class="btn essence-btn">view collection</a>
+                <h2>Summary</h2>
+                <ul class="summary-table">
+                    <li><span>subtotal:</span> <span>$274.00</span></li>
+                    <li><span>delivery:</span> <span>Free</span></li>
+                    <li><span>discount:</span> <span>-15%</span></li>
+                    <li><span>total:</span> <span>$232.00</span></li>
+                </ul>
+                <div class="checkout-btn mt-100">
+                    <a href="checkout.html" class="btn essence-btn">check out</a>
                 </div>
             </div>
         </div>
     </div>
-</section>
-<!--  Welcome Area End -->
+    <!-- ##### Right Side Cart End ##### -->
 
-<!--  Product Area Start  -->
+    <!--  Right Side Cart End  -->
 
-<!--  Product Area End  -->
+    <!-- Welcome Area Start  -->
+    <section class="welcome_area bg-img background-overlay" style="background-image: url(img/bg-img/bg-1.1.jpg);">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="hero-content">
+                        <h6>asoss</h6>
+                        <h2>New Collection</h2>
+                        <a href="#" class="btn essence-btn">view collection</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  Welcome Area End -->
+
+    <!--  Product Area Start  -->
+
+    <!--  Product Area End  -->
     <!--  Menu Area End -->
 
-    
+
 
     <!--  Footer Area Start  -->
     <footer class="footer_area clearfix">
@@ -328,7 +325,7 @@
     <script src="js/active.js"></script>
     <!-- Footer Area End -->
 
-    
+
 
 </body>
 
