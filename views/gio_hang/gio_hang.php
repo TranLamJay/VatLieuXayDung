@@ -1,7 +1,6 @@
 <?php
 session_start();
-include 'views/layout/footer.php';
-include 'views/layout/header.php';
+include '../layout/header.php';
 ?>
 <div class="cart-content d-flex">
 
@@ -10,7 +9,7 @@ include 'views/layout/header.php';
             <!-- Single Cart Item -->
             <div class="single-cart-item">
                 <a href="card.php" class="product-image">
-                    <img src="img/product-img/product-1.1.1.jpg" class="cart-thumb" alt="">
+                    <img src="../../img/product-img/product-1.1.1.jpg" class="cart-thumb" alt="">
                     <!-- Cart Item Desc -->
                     <div class="cart-item-desc">
                         <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
@@ -26,7 +25,7 @@ include 'views/layout/header.php';
             <!-- Single Cart Item -->
             <div class="single-cart-item">
                 <a href="#" class="product-image">
-                    <img src="img/product-img/product-2.1.jpg" class="cart-thumb" alt="">
+                    <img src="../img/product-img/product-2.1.jpg" class="cart-thumb" alt="">
                     <!-- Cart Item Desc -->
                     <div class="cart-item-desc">
                         <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
@@ -42,7 +41,7 @@ include 'views/layout/header.php';
             <!-- Single Cart Item -->
             <div class="single-cart-item">
                 <a href="#" class="product-image">
-                    <img src="img/product-img/product-3.1.jpg" class="cart-thumb" alt="">
+                    <img src="../img/product-img/product-3.1.jpg" class="cart-thumb" alt="">
                     <!-- Cart Item Desc -->
                     <div class="cart-item-desc">
                         <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
