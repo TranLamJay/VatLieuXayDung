@@ -4,6 +4,12 @@ include_once '../layout/header.php'
 ?>
 <!-- Header Area End -->
 
+<!-- ##### Menu Area Start ##### -->
+<?php
+include_once '../layout/menu.php'
+?>
+<!-- ##### Menu Area End ##### -->
+
 <!-- ##### Right Side Cart Area ##### -->
 <div class="cart-bg-overlay"></div>
 
