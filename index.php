@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
 
     <!-- Title  -->
     <title>Cửa Hàng VLXD</title>
@@ -25,7 +25,7 @@
 <!-- Header Area End -->
 
 <body>
-    <!-- ##### Menu Area Start ##### -->
+    <!-- Menu Area Start  -->
     <header class="header_area">
         <div class="classy-nav-container breakpoint-off d-flex align-items-center justify-content-between">
             <!-- Classy Menu -->
@@ -45,34 +45,34 @@
                     <!-- Nav Start -->
                     <div class="classynav">
                         <ul>
-                            <li><a href="#">Shop</a>
+                            <li><a href="#">Vật Liệu</a>
                                 <div class="megamenu">
                                     <ul class="single-mega cn-col-4">
-                                        <li class="title">Women's Collection</li>
-                                        <li><a href="shop.html">Dresses</a></li>
-                                        <li><a href="shop.html">Blouses &amp; Shirts</a></li>
-                                        <li><a href="shop.html">T-shirts</a></li>
-                                        <li><a href="shop.html">Rompers</a></li>
-                                        <li><a href="shop.html">Bras &amp; Panties</a></li>
+                                        <li class="title">Gạch</li>
+                                        <li><a href="shop.html">Gạch men</a></li>
+                                        <li><a href="shop.html">Gạch tàu &amp; Shirts</a></li>
+                                        <li><a href="shop.html">Gạch ống</a></li>
+                                        <li><a href="shop.html">Gạch đất nung</a></li>
+                                        <li><a href="shop.html">Gạch Bông</a></li>
                                     </ul>
                                     <ul class="single-mega cn-col-4">
-                                        <li class="title">Men's Collection</li>
-                                        <li><a href="shop.html">T-Shirts</a></li>
-                                        <li><a href="shop.html">Polo</a></li>
-                                        <li><a href="shop.html">Shirts</a></li>
-                                        <li><a href="shop.html">Jackets</a></li>
-                                        <li><a href="shop.html">Trench</a></li>
+                                        <li class="title">Gỗ</li>
+                                        <li><a href="shop.html">Gỗ tần bì </a></li>
+                                        <li><a href="shop.html">Gỗ lim</a></li>
+                                        <li><a href="shop.html">Gỗ hương</a></li>
+                                        <li><a href="shop.html">Gỗ xoan</a></li>
+                                        <li><a href="shop.html">Gỗ sồi</a></li>
                                     </ul>
                                     <ul class="single-mega cn-col-4">
-                                        <li class="title">Kid's Collection</li>
-                                        <li><a href="shop.html">Dresses</a></li>
-                                        <li><a href="shop.html">Shirts</a></li>
-                                        <li><a href="shop.html">T-shirts</a></li>
-                                        <li><a href="shop.html">Jackets</a></li>
-                                        <li><a href="shop.html">Trench</a></li>
+                                        <li class="title">Đá</li>
+                                        <li><a href="shop.html">Đá cẩm thạch</a></li>
+                                        <li><a href="shop.html">Đá hoa cương</a></li>
+                                        <li><a href="shop.html">Đá trầm tích</a></li>
+                                        <li><a href="shop.html">Đá xi măng</a></li>
+                                        <li><a href="shop.html">Đá nhựa nhân tạo</a></li>
                                     </ul>
                                     <div class="single-mega cn-col-4">
-                                        <img src="img/bg-img/bg-6.jpg" alt="">
+                                        <img src="img/bg-img/bg-6.1.jpg" alt="">
                                     </div>
                                 </div>
                             </li>
@@ -111,99 +111,35 @@
                 </div>
                 <!-- User Login Info -->
                 <div class="user-login-info">
-                    <a href="#"><img src="img/core-img/user.svg" alt=""></a>
+                    <a href="login.php"><img src="img/core-img/user.svg" alt=""></a>
+                 
+                    
                 </div>
                 <!-- Cart Area -->
                 <div class="cart-area">
-                    <a href="#" id="essenceCartBtn"><img src="img/core-img/bag.svg" alt=""> <span>3</span></a>
+                    <a href="card.php" id="essenceCartBtn"><img src="img/core-img/bag.svg" alt="">
                 </div>
             </div>
 
         </div>
     </header>
-<!-- ##### Right Side Cart Area ##### -->
+<!--  Right Side Cart Area  -->
 <div class="cart-bg-overlay"></div>
 
 <div class="right-side-cart-area">
-
+<!--id="rightSideCart" -->
+<!--<span>3</span>-->
     <!-- Cart Button -->
     <div class="cart-button">
-        <a href="#" id="rightSideCart"><img src="img/core-img/bag.svg" alt=""> <span>3</span></a>
+        <a href="#" ><img src="img/core-img/bag.svg" alt=""> </a>
     </div>
 
-    <div class="cart-content d-flex">
-
-        <!-- Cart List Area -->
-        <div class="cart-list">
-            <!-- Single Cart Item -->
-            <div class="single-cart-item">
-                <a href="#" class="product-image">
-                    <img src="img/product-img/product-1.jpg" class="cart-thumb" alt="">
-                    <!-- Cart Item Desc -->
-                    <div class="cart-item-desc">
-                        <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
-                        <span class="badge">Mango</span>
-                        <h6>Button Through Strap Mini Dress</h6>
-                        <p class="size">Size: S</p>
-                        <p class="color">Color: Red</p>
-                        <p class="price">$45.00</p>
-                    </div>
-                </a>
-            </div>
-
-            <!-- Single Cart Item -->
-            <div class="single-cart-item">
-                <a href="#" class="product-image">
-                    <img src="img/product-img/product-2.jpg" class="cart-thumb" alt="">
-                    <!-- Cart Item Desc -->
-                    <div class="cart-item-desc">
-                        <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
-                        <span class="badge">Mango</span>
-                        <h6>Button Through Strap Mini Dress</h6>
-                        <p class="size">Size: S</p>
-                        <p class="color">Color: Red</p>
-                        <p class="price">$45.00</p>
-                    </div>
-                </a>
-            </div>
-
-            <!-- Single Cart Item -->
-            <div class="single-cart-item">
-                <a href="#" class="product-image">
-                    <img src="img/product-img/product-3.jpg" class="cart-thumb" alt="">
-                    <!-- Cart Item Desc -->
-                    <div class="cart-item-desc">
-                        <span class="product-remove"><i class="fa fa-close" aria-hidden="true"></i></span>
-                        <span class="badge">Mango</span>
-                        <h6>Button Through Strap Mini Dress</h6>
-                        <p class="size">Size: S</p>
-                        <p class="color">Color: Red</p>
-                        <p class="price">$45.00</p>
-                    </div>
-                </a>
-            </div>
-        </div>
-
-        <!-- Cart Summary -->
-        <div class="cart-amount-summary">
-
-            <h2>Summary</h2>
-            <ul class="summary-table">
-                <li><span>subtotal:</span> <span>$274.00</span></li>
-                <li><span>delivery:</span> <span>Free</span></li>
-                <li><span>discount:</span> <span>-15%</span></li>
-                <li><span>total:</span> <span>$232.00</span></li>
-            </ul>
-            <div class="checkout-btn mt-100">
-                <a href="checkout.html" class="btn essence-btn">check out</a>
-            </div>
-        </div>
-    </div>
+    
 </div>
-<!-- ##### Right Side Cart End ##### -->
+<!--  Right Side Cart End  -->
 
-<!-- ##### Welcome Area Start ##### -->
-<section class="welcome_area bg-img background-overlay" style="background-image: url(img/bg-img/bg-1.jpg);">
+<!-- Welcome Area Start  -->
+<section class="welcome_area bg-img background-overlay" style="background-image: url(img/bg-img/bg-1.1.jpg);">
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col-12">
@@ -216,16 +152,16 @@
         </div>
     </div>
 </section>
-<!-- ##### Welcome Area End ##### -->
+<!--  Welcome Area End -->
 
-<!-- ##### Product Area Start ##### -->
+<!--  Product Area Start  -->
 
-<!-- ##### Product Area End ##### -->
-    <!-- ##### Menu Area End ##### -->
+<!--  Product Area End  -->
+    <!--  Menu Area End -->
 
     
 
-    <!-- ##### Footer Area Start ##### -->
+    <!--  Footer Area Start  -->
     <footer class="footer_area clearfix">
         <div class="container">
             <div class="row">
@@ -316,7 +252,7 @@
     <script src="js/classy-nav.min.js"></script>
     <!-- Active js -->
     <script src="js/active.js"></script>
-    <!-- ##### Footer Area End ##### -->
+    <!-- Footer Area End -->
 
     
 
