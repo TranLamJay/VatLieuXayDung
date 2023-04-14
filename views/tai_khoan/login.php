@@ -3,21 +3,20 @@ session_start();
 
 if(isset($_SESSION['auth']))
 {
-    if(!isset($_SESSION['message'])){
-    $_SESSION['message']= "you are already logged in";
+    if(!isset($_SESSION['../message.php'])){
+    $_SESSION['../message.php']= "you are already logged in";
     }
-    header("Location: index.php");
+    header("Location:../../index.php");
    exit(0);
 }
-include('includes/header.php');
-//include('includes/navbar.php');
+include('../layout/header.php');
 ?>
 <div class="py-5">
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-5">
 
-        <?php include('message.php'); ?>
+        <?php include('../message.php'); ?>
 
             <div class="car">
                 <div class="car-header">

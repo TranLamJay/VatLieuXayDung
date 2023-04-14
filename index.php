@@ -31,7 +31,7 @@
             <!-- Classy Menu -->
             <nav class="classy-navbar" id="essenceNav">
                 <!-- Logo -->
-                <a class="nav-brand" href="../../index.html"><img src="img/core-img/logo.png" alt=""></a>
+                <a class="nav-brand" href="index.php"><img src="img/core-img/logo.png" alt=""></a>
                 <!-- Navbar Toggler -->
                 <div class="classy-navbar-toggler">
                     <span class="navbarToggler"><span></span><span></span><span></span></span>
@@ -84,13 +84,11 @@
                             </li>
                             <li><a href="#">Pages</a>
                                 <ul class="dropdown">
-                                    <li><a href="views/san_pham/shop.php">Vật Liệu</a></li>
                                     <li><a href="views/thanh_toan/checkout.php">Đơn Hàng</a></li>
                                     <li><a href="views/lien_he/contact.php">Liên Hệ</a></li>
 
                                 </ul>
                             </li>
-                            <li><a href="views/san_pham/shop.php">Vật Liệu</a></li>
                             <li><a href="views/thanh_toan/checkout.php">Đơn Hàng</a></li>
                             <li><a href="views/lien_he/contact.php">Liên Hệ</a></li>
                         </ul>
@@ -114,7 +112,7 @@
                 </div>
                 <!-- User Login Info -->
                 <div class="user-login-info">
-                    <a href="login.php"><img src="img/core-img/user.svg" alt=""></a>
+                    <a href="views/tai_khoan/login.php"><img src="img/core-img/user.svg" alt=""></a>
 
 
                 </div>
@@ -192,15 +190,15 @@
             <!-- Cart Summary -->
             <div class="cart-amount-summary">
 
-                <h2>Summary</h2>
+                <h2>Đơn Hàng</h2>
                 <ul class="summary-table">
-                    <li><span>subtotal:</span> <span>$274.00</span></li>
-                    <li><span>delivery:</span> <span>Free</span></li>
-                    <li><span>discount:</span> <span>-15%</span></li>
-                    <li><span>total:</span> <span>$232.00</span></li>
+                    <li><span>Tổng Tiền:</span> <span>$135.00</span></li>
+                    <li><span>Số Lượng:</span> <span>250</span></li>
+                    <li><span>Ngày Đặt:</span> <span>10/04/2023</span></li>
+                    <li><span>Dự Kiến Ngày Giao:</span> <span>14/04/2023</span></li>
                 </ul>
                 <div class="checkout-btn mt-100">
-                    <a href="checkout.html" class="btn essence-btn">check out</a>
+                    <a href="views/thanh_toan/checkout.php" class="btn essence-btn">check out</a>
                 </div>
             </div>
         </div>
@@ -215,9 +213,8 @@
             <div class="row h-100 align-items-center">
                 <div class="col-12">
                     <div class="hero-content">
-                        <h6>asoss</h6>
-                        <h2>New Collection</h2>
-                        <a href="#" class="btn essence-btn">view collection</a>
+                        <h2>Cửa Hàng Vật Liệu Xây Dựng</h2>
+                        <a href="views/san_pham/shop.php" class="btn essence-btn">view product</a>
                     </div>
                 </div>
             </div>
@@ -246,15 +243,15 @@
                         <!-- Footer Menu -->
                         <div class="footer_menu">
                             <ul>
-                                <li><a href="shop.html">Shop</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                            <li><a href="views/san_pham/shop.php">Vật Liệu</a></li>
+                            <li><a href="views/thanh_toan/checkout.php">Đơn Hàng</a></li>
+                            <li><a href="views/lien_he/contact.php">Liên Hệ</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <!-- Single Widget Area -->
-                <div class="col-12 col-md-6">
+                <!-- <div class="col-12 col-md-6">
                     <div class="single_widget_area mb-30">
                         <ul class="footer_widget_menu">
                             <li><a href="#">Order Status</a></li>
@@ -265,7 +262,7 @@
                             <li><a href="#">Terms of Use</a></li>
                         </ul>
                     </div>
-                </div>
+                </div> -->
             </div>
 
             <div class="row align-items-end">
@@ -301,9 +298,7 @@
                 <div class="col-md-12 text-center">
                     <p>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        Copyright &copy;<script>
-                            document.write(new Date().getFullYear());
-                        </script> All rights reserved | Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>, distributed by <a href="https://themewagon.com/" target="_blank">ThemeWagon</a>
+                       
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </p>
                 </div>

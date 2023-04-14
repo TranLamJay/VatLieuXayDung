@@ -11,15 +11,15 @@
                         <!-- Footer Menu -->
                         <div class="footer_menu">
                             <ul>
-                                <li><a href="shop.html">Shop</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                            <li><a href="../san_pham/shop.php">Vật Liệu</a></li>
+                            <li><a href="../thanh_toan/checkout.php">Đơn Hàng</a></li>
+                            <li><a href="../lien_he/contact.php">Liên Hệ</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <!-- Single Widget Area -->
-                <div class="col-12 col-md-6">
+                <!-- <div class="col-12 col-md-6">
                     <div class="single_widget_area mb-30">
                         <ul class="footer_widget_menu">
                             <li><a href="#">Order Status</a></li>
@@ -30,7 +30,7 @@
                             <li><a href="#">Terms of Use</a></li>
                         </ul>
                     </div>
-                </div>
+                </div> -->
             </div>
 
             <div class="row align-items-end">
@@ -66,9 +66,7 @@
                 <div class="col-md-12 text-center">
                     <p>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        Copyright &copy;<script>
-                            document.write(new Date().getFullYear());
-                        </script> All rights reserved | Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>, distributed by <a href="https://themewagon.com/" target="_blank">ThemeWagon</a>
+                       
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </p>
                 </div>
@@ -88,3 +86,4 @@
     <script src="../../js/classy-nav.min.js"></script>
     <!-- Active js -->
     <script src="../../js/active.js"></script>
+    <!-- Footer Area End -->
