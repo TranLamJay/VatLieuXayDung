@@ -8,12 +8,9 @@
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<<<<<<< HEAD
-=======
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
->>>>>>> 382b191f043dab8fd2307a83a4c63129cf8cdee9
 
 
     <!-- Title  -->
@@ -191,11 +188,8 @@
                 </div>
                 <!-- User Login Info -->
                 <div class="user-login-info">
-<<<<<<< HEAD
                     <a href="views/tai_khoan/login.php"><img src="img/core-img/user.svg" alt=""></a>
-=======
                     <a href="login.php"><img src="img/core-img/user.svg" alt=""></a>
->>>>>>> 382b191f043dab8fd2307a83a4c63129cf8cdee9
 
 
                 </div>
@@ -272,8 +266,6 @@
 
             <!-- Cart Summary -->
             <div class="cart-amount-summary">
-
-<<<<<<< HEAD
                 <h2>Đơn Hàng</h2>
                 <ul class="summary-table">
                     <li><span>Tổng Tiền:</span> <span>$135.00</span></li>
@@ -283,17 +275,6 @@
                 </ul>
                 <div class="checkout-btn mt-100">
                     <a href="views/thanh_toan/checkout.php" class="btn essence-btn">check out</a>
-=======
-                <h2>Summary</h2>
-                <ul class="summary-table">
-                    <li><span>subtotal:</span> <span>$274.00</span></li>
-                    <li><span>delivery:</span> <span>Free</span></li>
-                    <li><span>discount:</span> <span>-15%</span></li>
-                    <li><span>total:</span> <span>$232.00</span></li>
-                </ul>
-                <div class="checkout-btn mt-100">
-                    <a href="checkout.html" class="btn essence-btn">check out</a>
->>>>>>> 382b191f043dab8fd2307a83a4c63129cf8cdee9
                 </div>
             </div>
         </div>
@@ -303,23 +284,13 @@
     <!--  Right Side Cart End  -->
 
     <!-- Welcome Area Start  -->
-<<<<<<< HEAD
-    <section class="welcome_area bg-img background-overlay" style="background-image: url(img/bg-img/bg-1.1.jpg);">
-=======
     <section class="welcome_area bg-img background-overlay" style="background-image: url(img/bg-img/bg-1-1.jpg);">
->>>>>>> 382b191f043dab8fd2307a83a4c63129cf8cdee9
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
                     <div class="hero-content">
-<<<<<<< HEAD
-                        <h2>Cửa Hàng Vật Liệu Xây Dựng</h2>
-                        <a href="views/san_pham/shop.php" class="btn essence-btn">view product</a>
-=======
-                        <h6></h6>
                         <h2>Cửa Hàng Vật Liệu Xây Dựng</h2>
                         <a href="views/san_pham/index.php" class="btn essence-btn">view collection</a>
->>>>>>> 382b191f043dab8fd2307a83a4c63129cf8cdee9
                     </div>
                 </div>
             </div>
@@ -408,17 +379,12 @@
             <div class="row mt-5">
                 <div class="col-md-12 text-center">
                     <p>
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-<<<<<<< HEAD
-                       
-=======
                         Copyright &copy;
                         <script>
                             document.write(new Date().getFullYear());
                         </script> All rights reserved | Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by
                         <a href="https://colorlib.com" target="_blank">Colorlib</a>, distributed by <a
                             href="https://themewagon.com/" target="_blank">ThemeWagon</a>
->>>>>>> 382b191f043dab8fd2307a83a4c63129cf8cdee9
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </p>
                 </div>
