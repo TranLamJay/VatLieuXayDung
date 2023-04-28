@@ -1,17 +1,49 @@
 <!-- Header Area Start -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<<<<<<< HEAD
+=======
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+>>>>>>> 382b191f043dab8fd2307a83a4c63129cf8cdee9
 
 
     <!-- Title  -->
     <title>Cửa Hàng VLXD</title>
+    <script>
+        "use strict";
+
+        !function () {
+            var t = window.driftt = window.drift = window.driftt || [];
+            if (!t.init) {
+                if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+                t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
+                    t.factory = function (e) {
+                        return function () {
+                            var n = Array.prototype.slice.call(arguments);
+                            return n.unshift(e), t.push(n), t;
+                        };
+                    }, t.methods.forEach(function (e) {
+                        t[e] = t.factory(e);
+                    }), t.load = function (t) {
+                        var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+                        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+                        var i = document.getElementsByTagName("script")[0];
+                        i.parentNode.insertBefore(o, i);
+                    };
+            }
+        }();
+        drift.SNIPPET_VERSION = '0.3.1';
+        drift.load('uxyunuz7zmz3');
+    </script>
 
     <!-- Favicon  -->
     <link rel="icon" href="img/core-img/favicon.ico">
@@ -19,6 +51,8 @@
     <!-- Core Style CSS -->
     <link rel="stylesheet" href="css/core-style.css">
     <link rel="stylesheet" href="style.css">
+    <!-- Start of Async Drift Code -->
+    <!-- End of Async Drift Code -->
 
 </head>
 
@@ -49,38 +83,41 @@
                         <ul>
                             <li><a href="views/san_pham/shop.php">Vật Liệu</a>
                                 <div class="megamenu">
-                                    <ul class="single-mega cn-col-5">
+                                    <ul class="single-mega cn-col-3">
                                         <li class="title">Gạch</li>
 
                                     </ul>
-                                    <ul class="single-mega cn-col-5">
+                                    <ul class="single-mega cn-col-3">
                                         <li class="title">Xi-măng</li>
 
                                     </ul>
-                                    <ul class="single-mega cn-col-5">
+                                    <ul class="single-mega cn-col-3">
                                         <li class="title">Gỗ </li>
 
                                     </ul>
-                                    <ul class="single-mega cn-col-5">
+                                    <ul class="single-mega cn-col-3">
                                         <li class="title">Gạch men</li>
 
                                     </ul>
-                                    <ul class="single-mega cn-col-5">
+                                    <ul class="single-mega cn-col-3">
                                         <li class="title">Ngói</li>
 
                                     </ul>
-                                    <ul class="single-mega cn-col-5">
+                                    <ul class="single-mega cn-col-3">
                                         <li class="title">Gạch ống</li>
 
                                     </ul>
-                                    <ul class="single-mega cn-col-5">
+
+                                    <ul class="single-mega cn-col-3">
                                         <li class="title">Đá</li>
 
                                     </ul>
-                                    <div class="single-mega cn-col-4">
+                                    <div>
+                                        <!--<div class="single-mega cn-col-5">
                                         <img src="img/bg-img/bg-6.1.jpg" alt="">
+                                       
+                                    </div>-->
                                     </div>
-                                </div>
                             </li>
                             <li><a href="#">Pages</a>
                                 <ul class="dropdown">
@@ -102,8 +139,50 @@
                 <!-- Search Area -->
                 <div class="search-area">
                     <form action="#" method="post">
-                        <input type="search" name="search" id="headerSearch" placeholder="Type for search">
-                        <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                        <!-- <input type="text" name="search" id="headerSearch" placeholder="Type for search"> -->
+                        <!-- <div class="autocom-box">
+                                <li>Gạch men </li>
+                                <li>Gạch đỏ </li>
+                                <li>Gạch hoa văng </li>
+                                <li>Gạch thủy tinh </li>
+                                <li>Gạch ống </li>
+                            </div> -->
+                        <!-- <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button> -->
+                        <!-- <div class ="search-input">
+                            <input type="text" placeholder="Type to search.."> -->
+
+                        <!-- search-area = search-input -->
+                        <!-- search = text -->
+                        <!-- <div class="wrapper">
+                            <div class="search-input">
+                                <a href="" target="_blank" hidden></a>
+                                <input type="text" placeholder="Type to search..">
+                                <div class="icon"><i class="fa fa-search" aria-hidden="true"></i></div>
+
+
+                                <div class="autocom-box">
+                                    < here list are inserted from javascript -->
+
+                        <!-- </div>
+
+                            </div>
+
+                        </div>  -->
+                        <div class="wrapper">
+                            <div class="search-input">
+                                <a href="" target="_blank" hidden></a>
+                                <input type="text" placeholder="Type to search..">
+                                <div class="autocom-box">
+                                    <!-- here list are inserted from javascript -->
+                                </div>
+                                <div class="icon"><i class="fas fa-search"></i></div>
+                            </div>
+                        </div>
+
+                        <script src="js/suggestions.js"></script>
+                        <script src="js/script.js"></script>
+
+
                     </form>
                 </div>
                 <!-- Favourite Area -->
@@ -112,7 +191,11 @@
                 </div>
                 <!-- User Login Info -->
                 <div class="user-login-info">
+<<<<<<< HEAD
                     <a href="views/tai_khoan/login.php"><img src="img/core-img/user.svg" alt=""></a>
+=======
+                    <a href="login.php"><img src="img/core-img/user.svg" alt=""></a>
+>>>>>>> 382b191f043dab8fd2307a83a4c63129cf8cdee9
 
 
                 </div>
@@ -190,6 +273,7 @@
             <!-- Cart Summary -->
             <div class="cart-amount-summary">
 
+<<<<<<< HEAD
                 <h2>Đơn Hàng</h2>
                 <ul class="summary-table">
                     <li><span>Tổng Tiền:</span> <span>$135.00</span></li>
@@ -199,6 +283,17 @@
                 </ul>
                 <div class="checkout-btn mt-100">
                     <a href="views/thanh_toan/checkout.php" class="btn essence-btn">check out</a>
+=======
+                <h2>Summary</h2>
+                <ul class="summary-table">
+                    <li><span>subtotal:</span> <span>$274.00</span></li>
+                    <li><span>delivery:</span> <span>Free</span></li>
+                    <li><span>discount:</span> <span>-15%</span></li>
+                    <li><span>total:</span> <span>$232.00</span></li>
+                </ul>
+                <div class="checkout-btn mt-100">
+                    <a href="checkout.html" class="btn essence-btn">check out</a>
+>>>>>>> 382b191f043dab8fd2307a83a4c63129cf8cdee9
                 </div>
             </div>
         </div>
@@ -208,13 +303,23 @@
     <!--  Right Side Cart End  -->
 
     <!-- Welcome Area Start  -->
+<<<<<<< HEAD
     <section class="welcome_area bg-img background-overlay" style="background-image: url(img/bg-img/bg-1.1.jpg);">
+=======
+    <section class="welcome_area bg-img background-overlay" style="background-image: url(img/bg-img/bg-1-1.jpg);">
+>>>>>>> 382b191f043dab8fd2307a83a4c63129cf8cdee9
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
                     <div class="hero-content">
+<<<<<<< HEAD
                         <h2>Cửa Hàng Vật Liệu Xây Dựng</h2>
                         <a href="views/san_pham/shop.php" class="btn essence-btn">view product</a>
+=======
+                        <h6></h6>
+                        <h2>Cửa Hàng Vật Liệu Xây Dựng</h2>
+                        <a href="views/san_pham/index.php" class="btn essence-btn">view collection</a>
+>>>>>>> 382b191f043dab8fd2307a83a4c63129cf8cdee9
                     </div>
                 </div>
             </div>
@@ -275,7 +380,8 @@
                         <div class="subscribtion_form">
                             <form action="#" method="post">
                                 <input type="email" name="mail" class="mail" placeholder="Your email here">
-                                <button type="submit" class="submit"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+                                <button type="submit" class="submit"><i class="fa fa-long-arrow-right"
+                                        aria-hidden="true"></i></button>
                             </form>
                         </div>
                     </div>
@@ -284,11 +390,16 @@
                 <div class="col-12 col-md-6">
                     <div class="single_widget_area">
                         <div class="footer_social_area">
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="Youtube"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i
+                                    class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><i
+                                    class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i
+                                    class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i
+                                    class="fa fa-pinterest" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Youtube"><i
+                                    class="fa fa-youtube-play" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
@@ -298,7 +409,16 @@
                 <div class="col-md-12 text-center">
                     <p>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+<<<<<<< HEAD
                        
+=======
+                        Copyright &copy;
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script> All rights reserved | Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by
+                        <a href="https://colorlib.com" target="_blank">Colorlib</a>, distributed by <a
+                            href="https://themewagon.com/" target="_blank">ThemeWagon</a>
+>>>>>>> 382b191f043dab8fd2307a83a4c63129cf8cdee9
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </p>
                 </div>
